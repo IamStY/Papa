@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+     android:id="@+id/activity_iam_adictionary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.stevenyang.testchangeactivityanimation.IAmADictionary">
+
+    <Button
+        android:text="搜尋"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/editText2"
+        android:id="@+id/button2"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Stealthy"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="隱蔽"
+        android:textSize="29dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:text="形容詞
+
+hidden\n
+隱, 隱蔽, 潛, 潛在, 暗, 不可告人\n
+covert\n
+隱蔽, 變相, 隱秘, 暗, 眼饞, 眼紅\n
+secret\n
+秘密, 密, 機密, 保密, 隱秘, 隱蔽\n
+stealthy\n
+鬼鬼祟祟, 隱蔽, 偷偷, 鬼頭鬼腦, 偷, 潛\n
+underground\n
+地下, 隱蔽, 痠軟, 在地下\n
+clandestine\n
+隱蔽, 隱秘, 曖\n
+undercover\n
+秘密, 隱蔽\n動詞\n
+cover\n
+蓋, 覆蓋, 罩, 掩蓋, 覆, 隱蔽\n
+hide\n
+隱藏, 躲, 隱瞞, 藏, 掩蓋, 隱蔽\n
+conceal\n
+隱藏, 隱瞞, 掩蓋, 藏匿, 掩飾, 隱蔽\n
+obscure\n
+隱藏, 隱蔽, 澀\n
+mask\n
+隱藏, 偽裝, 隱蔽, 隱秘\n
+secrete\n
+分泌, 隱秘, 泌, 隱藏, 藏, 隱蔽\n
+veil\n
+面紗, 幕, 隱藏, 隱蔽, 隱秘\n
+bury\n
+埋葬, 埋, 葬, 掩埋, 埋沒, 隱蔽\n
+hide from view\n
+隱蔽, 隱藏, 隱匿\n
+screen\n
+屏蔽, 篩, 放映, 拍攝, 遮, 隱蔽\n
+put out of sight\n
+隱蔽, 隱藏, 隱秘\n
+副詞\n
+covertly\n
+隱蔽, 偷偷摸摸, 偷偷\n
+surreptitiously\n
+偷偷摸摸, 暗中, 隱蔽, 竊"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:id="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_toEndOf="@+id/textView"/>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/secretView"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
+</ScrollView>
